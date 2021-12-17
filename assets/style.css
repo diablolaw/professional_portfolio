@@ -1,0 +1,21 @@
+body {
+  background-color: aqua;
+}
+nav {
+  border: 1px red solid;
+}
+
+.links-list {
+  display: flex;
+  justify-content: center;
+  border: 1px yellow solid;
+}
+.about-me {
+  border: 1px yellow solid;
+  width: 50%;
+  height: 300px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
