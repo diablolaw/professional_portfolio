@@ -1,14 +1,36 @@
 body {
-  background-color: aqua;
+  background-color: azure;
 }
 nav {
   border: 1px red solid;
 }
-
+.header {
+  padding: 1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+  background-color: darkslategray;
+  color: beige;
+  position: relative;
+}
+#elliott {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  left: 0px;
+  padding-left: 30px;
+  background-color: cadetblue;
+}
 .links-list {
-  display: flex;
-  justify-content: center;
-  border: 1px yellow solid;
+  width: 30%;
+  position: relative;
+  display: inline-flex;
+  left: 20%;
+  justify-content: space-between;
+  list-style: none;
+}
+.link {
+  color: cadetblue;
 }
 .about-me {
   border: 1px yellow solid;
