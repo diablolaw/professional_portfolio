@@ -1,15 +1,13 @@
 body {
   background-color: azure;
 }
-nav {
-  border: 1px red solid;
-}
+
 .header {
   padding: 1px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: xx-large;
-  background-color: darkslategray;
+  background-color: #1b2638;
   color: beige;
   position: relative;
 }
@@ -32,12 +30,96 @@ nav {
 .link {
   color: cadetblue;
 }
+.link2 {
+  color: green;
+}
+.pic1 {
+  height: 200px;
+  width: 100%;
+  background-image: url("../assets/images/pic1.jpg");
+  background-position: bottom;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 0px;
+}
 .about-me {
-  border: 1px yellow solid;
-  width: 50%;
+  width: 100%;
   height: 300px;
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+.float-left {
+  float: left;
+  left: 8%;
+  font-size: 40px;
+  position: relative;
+  color: green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.float-right {
+  float: right;
+  margin-left: 23%;
+  margin-right: 10%;
+  margin-top: -50px;
+  font-size: 30px;
+  color: green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 300px;
+  position: absolute;
+  left: 21%;
+}
+.vl2 {
+  border-left: 6px solid green;
+  height: 150px;
+  position: absolute;
+  left: 21%;
+}
+.vl3 {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 21%;
+}
+
+.contact-me {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  position: relative;
+}
+.contact-list {
+  font-size: 30px;
+  width: 30%;
+  position: relative;
+  display: inline-flex;
+  left: 5%;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.portfolio {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  position: relative;
+}
+.img1 {
+  width: 500px;
+  height: 250px;
+  margin-left: 20%;
+  display: inline-block;
+}
+.img {
+  width: 500px;
+  height: 250px;
+  display: inline-block;
+}
+.img3 {
+  width: 400px;
+  height: 200px;
+  margin-left: 30.7%;
+  display: inline-block;
 }
