@@ -1,7 +1,9 @@
 body {
   background-color: azure;
 }
-
+main {
+  align-items: flex-start;
+}
 .header {
   padding: 1px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -43,9 +45,8 @@ body {
   margin-top: 0px;
 }
 .about-me {
-  width: 100%;
   height: 300px;
-  position: relative;
+  display: flex;
 }
 .float-left {
   float: left;
@@ -56,11 +57,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.float-right {
-  float: right;
-  margin-left: 23%;
-  margin-right: 10%;
-  margin-top: -50px;
+.description {
   font-size: 30px;
   color: green;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -69,34 +66,30 @@ body {
 .vl {
   border-left: 6px solid green;
   height: 300px;
-  position: absolute;
-  left: 21%;
+  position: relative;
 }
 .vl2 {
   border-left: 6px solid green;
   height: 150px;
-  position: absolute;
-  left: 21%;
+  position: relative;
 }
 .vl3 {
   border-left: 6px solid green;
   height: 500px;
-  position: absolute;
-  left: 21%;
+  position: relative;
 }
 
 .contact-me {
   width: 100%;
-  height: 300px;
   margin-top: 30px;
   position: relative;
+  display: flex;
 }
 .contact-list {
   font-size: 30px;
   width: 30%;
   position: relative;
   display: inline-flex;
-  left: 5%;
   justify-content: space-evenly;
   list-style: none;
 }
@@ -105,21 +98,25 @@ body {
   height: 500px;
   margin-top: 30px;
   position: relative;
-}
-.img1 {
-  width: 500px;
-  height: 250px;
-  margin-left: 20%;
-  display: inline-block;
+  display: flex;
 }
 .img {
   width: 500px;
   height: 250px;
-  display: inline-block;
 }
-.img3 {
-  width: 400px;
-  height: 200px;
-  margin-left: 30.7%;
-  display: inline-block;
+
+.container-portfolio {
+  width: 75%;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.subtitle {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(198, 226, 226);
+}
+.card {
+  padding: 4px;
 }
