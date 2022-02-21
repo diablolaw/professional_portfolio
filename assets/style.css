@@ -51,6 +51,8 @@ main {
 }
 .about-me {
   display: flex;
+  margin-top: 10%;
+  width: 80%;
 }
 .float-left {
   float: left;
@@ -112,6 +114,7 @@ span {
   width: 450px;
   height: 250px;
   filter: grayscale(0.7);
+  border-radius: 5%;
 }
 .img-big {
   width: 600px;
@@ -169,5 +172,35 @@ span {
   }
   .contact-me {
     flex-direction: column;
+  }
+}
+
+.arrow {
+  text-align: center;
+  margin: 3% 0;
+}
+.btn {
+  color: #a7f3e1;
+  text-decoration: none;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
   }
 }
