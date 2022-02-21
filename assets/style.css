@@ -6,27 +6,25 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: azure;
+  background-color: #1b2638;
 }
 main {
   align-items: flex-start;
 }
 .header {
   padding: 1px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-size: xx-large;
   background-color: #1b2638;
-  color: beige;
+  color: #64ffda;
   position: relative;
 }
 #elliott {
   position: relative;
   display: inline-block;
-  width: 40%;
+  width: 30%;
   left: 0px;
   padding-left: 30px;
-  background-color: cadetblue;
 }
 .links-list {
   width: 30%;
@@ -37,10 +35,10 @@ main {
   list-style: none;
 }
 .link {
-  color: cadetblue;
+  color: #64ffda;
 }
 .link2 {
-  color: green;
+  color: #a7f3e1;
 }
 .pic1 {
   height: 200px;
@@ -59,28 +57,31 @@ main {
   left: 8%;
   font-size: 40px;
   position: relative;
-  color: green;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #64ffda;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 .description {
   font-size: 30px;
-  color: green;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #a7f3e1;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+span {
+  font-size: 30px;
+  color: #a7f3e1;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 .vl {
-  border-left: 6px solid green;
+  border-left: 6px solid #a7f3e1;
   height: auto;
   position: relative;
 }
 .vl2 {
-  border-left: 6px solid green;
+  border-left: 6px solid #a7f3e1;
   height: auto;
   position: relative;
 }
 .vl3 {
-  border-left: 6px solid green;
+  border-left: 6px solid #a7f3e1;
   height: auto;
   position: relative;
 }
@@ -99,6 +100,7 @@ main {
   display: inline-flex;
   justify-content: space-evenly;
   list-style: none;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 .portfolio {
   width: 100%;
@@ -109,8 +111,21 @@ main {
 .img {
   width: 450px;
   height: 250px;
+  filter: grayscale(0.7);
 }
-
+.img-big {
+  width: 600px;
+  height: 350px;
+  filter: grayscale(0.7);
+}
+.img:hover {
+  opacity: 0.8;
+  z-index: 10;
+}
+.img-big:hover {
+  opacity: 0.8;
+  z-index: 10;
+}
 .container-portfolio {
   width: 75%;
   padding-left: 10px;
@@ -121,10 +136,15 @@ main {
   width: 25%;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(198, 226, 226);
 }
 .card {
   padding: 4px;
+}
+.avatar {
+  border-radius: 20%;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 992px) {
