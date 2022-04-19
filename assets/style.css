@@ -113,7 +113,7 @@ span {
 .img {
   width: 450px;
   height: 250px;
-  filter: grayscale(0.7);
+  /* filter: grayscale(0.7); */
   border-radius: 5%;
 }
 .img-big {
