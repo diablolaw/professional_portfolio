@@ -1,6 +1,7 @@
 # professional_portfolio
 
-![image](https://user-images.githubusercontent.com/94478511/154873109-9cc625c1-d5f9-4afb-bd9b-f93d4c387cc2.png)
+![image](https://user-images.githubusercontent.com/94478511/154887861-94a5ac9d-0ab2-4976-8c06-fbb4a3d21139.png)
+
 
 Deployed link:
 https://diablolaw.github.io/professional_portfolio/
